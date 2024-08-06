@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+   
+    <header>
+        <nav>
+            <div class="logo">ZAIN UL ABIDEEN</div>
+            <ul>
+                <li><a href="#home" data-text="Home">Home</a></li>
+                <li><a href="#about" data-text="About">About</a></li>
+                <li><a href="#skills" data-text="Skills">Skills</a></li>
+                <li><a href="#projects" data-text="Projects">Projects</a></li>
+                <li><a href="#contact" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 class="glitch" data-text="
+Transforming Brands in the Digital Age">
+Transforming Brands in the Digital Age</h1>
+                   <h3>With a blend of creativity and innovation, we craft bespoke solutions that resonate with your target audience.</h3>     
+            <div id="three-container"></div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card-3d">
+                <div class="card-content">
+                    <p> I'm a passionate marketer with expertise in digital marketing technologies, constantly pushing the boundaries of what's possible in digital marketing and advertisement . I currently work with small and medium sized businesses as well as partnering with agencies and freelancers. To make the complex simple, and to deliver honest results.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-perspective="500">
+                    <div class="skill-content">
+                        <h3>Digital Marketing</h3>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="90%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-perspective="500">
+                    <div class="skill-content">
+                        <h3>Graphic design</h3>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="95%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-perspective="500">
+                    <div class="skill-content">
+                        <h3>SEO</h3>
+                        <div class="skill-bar"><div class="skill-progress" data-progress="80%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Services</h2>
+            <div class="project-grid">
+                <div class="project-card" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-perspective="500">
+                    <div class="project-content">
+                        <h3>Digital Marketing & PR</h3>
+                        <p>
+ <li>Video Marketing</li>
+<li>Lead Generation</li>
+<li>Music Promotion</li>
+<li>Email Marketing </li> </p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-perspective="500">
+                    <div class="project-content">
+                        <h3>Search Marketing</h3>
+                        <p>
+ <li>SEO</li>
+ <li>Search Engine Marketing</li>
+ <li>Web Traffic Optimization</li>
+ <li>Keyword research</li>
+</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+ <div class="project-card" data-tilt data-tilt-max="25" data-tilt-speed="400" data-tilt-perspective="500">
+                    <div class="project-content">
+                        <h3>Graphic design</h3>
+                        <p>
+<li>Logo design</li>
+<li>Advertising design</li>
+   <li> Web design </li>  </p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+
+
+                
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="card-3d">
+                <form id="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ZAIN UL ABIDEEN. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
